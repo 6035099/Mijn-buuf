@@ -1,0 +1,83 @@
+/* Algemene stijlen */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    height: 20vh;
+    background-color: rgb(130, 130, 195);
+    text-align: center;
+    color: white;
+}
+
+/* Inlogcontainer */
+.log-container {
+    display: grid;
+    place-items: center;
+    height: 75vh;
+}
+
+.log-kop {
+    text-align: center;
+}
+
+/* Formulier */
+.bom {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Labels */
+label {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Invoervelden */
+.form-control{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+
+
+/* Knop */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: rgb(130, 130, 195);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.gender-container {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(100, 100, 165);
+}
+
+/* Footer */
+footer {
+    height: 5vh;
+    background-color: coral;
+}
