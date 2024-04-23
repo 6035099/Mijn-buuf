@@ -13,6 +13,7 @@
         <nav class="nav">
             <a href="#">Home</a>
             <a href="#">About</a>
-            <a href="#">Contact</a>
+            <a href="contact.php">Contact</a>
+            <a href="login.php">inloggen</a>
         </nav>
     </header>
