@@ -17,6 +17,12 @@ header {
     color: white;
 }
 
+nav {
+    display: flex;
+    gap: 20px;
+
+}
+
 /* Inlogcontainer */
 .log-container {
     display: grid;
@@ -74,6 +80,14 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: rgb(100, 100, 165);
+}
+
+/* Dit is de inlog pagina */
+
+.inlog-container {
+    display: grid;
+    place-items: center;
+    height: 75vh;
 }
 
 /* Footer */

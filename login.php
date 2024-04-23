@@ -1,47 +1,39 @@
-<?php include "lib/header.php"?>
-<main class="log-container">
-    <h1 class="log-kop">Register</h1>
-    <section class="bom">
-<form action="connect.php" method="post">
-    <div>
-        <label for="firstName">First Name</label>
-        <input type="text" class="form-control" id="firstName" name="firstName" />
-    </div>
-    <div>
-        <label for="lastName">Last Name</label>
-        <input type="text" class="form-control" id="lastName" name="lastName" />
-    </div>
-    <label for="gender">Gender</label>
-    <div class="gender-container">
-        <label for="male" class="radio-inline">
-            <input type="radio" name="gender" value="m" id="male" />
-            Male
-        </label>
-
-        <label for="female" class="radio-inline">
-            <input type="radio" name="gender" value="f" id="female" />
-            Female
-        </label>
-
-        <label for="others" class="radio-inline">
-            <input type="radio" name="gender" value="o" id="others" />
-            Others
-        </label>
-    </div>
-    <div>
-        <label for="email">Email</label>
-        <input type="text" class="form-control" id="email" name="email" />
-    </div>
-    <div>
-        <label for="password">Password</label>
-        <input type="password" class="form-control" id="password" name="password" />
-    </div>
-    <div>
-    <label for="number">Phone Number</label>
-    <input type="number" class="form-control" id="number" name="number" />
-    </div>
-    <input type="submit" class="btn btn-primary" />
-    </section>
+<?php
+include "lib/header.php";
+?>
+<main class="inlog-container">
+<form action="login.php" method="POST">
+    <label for="username">email</label>
+    <input type="text" id="email" name="email" required><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+    <input type="submit" value="Login">
 </form>
+
+<?php
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Process the login form
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+    $conn = new mysqli('localhost', 'root', '', 'Mijn_Buuf');
+    $sql= "SELECT * FROM registration WHERE email = '$email' AND password = '$password' ";
+    $result = mysqli_query($conn,$sql);
+    $aantal = mysqli_num_rows($result);
+    if ($aantal == 1) {
+        session_start();
+        $_SESSION['email'] = $email;
+        header('Location: form.php');
+    } else {
+        echo "Login failed";
+    }
+    $check = mysqli_fetch_array($result);
+    
+   
+
+} else {
+    echo "Wrong username or password.<br>Of registreer hier <a href='register.php'>Registeren</a>.";
+}
+?>
 </main>
-<?php include "lib/footer.php"?>
+
+<?php include "lib/footer.php";?>
