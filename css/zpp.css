@@ -21,7 +21,8 @@ header {
 .log-container {
     display: grid;
     place-items: center;
-    height: 75vh;
+    min-height: 75vh;
+    padding-bottom: 50px;
 }
 
 .log-kop {
