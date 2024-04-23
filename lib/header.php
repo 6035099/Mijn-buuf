@@ -10,12 +10,9 @@
     
     <header>
         <h1>Welcome to Mijn Buuf</h1>
-        <nav>
+        <nav class="nav">
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Contact</a>
-            <a href="login.php">Inloggen</a>
         </nav>
     </header>
-            
-            
