@@ -255,18 +255,18 @@ input[type="submit"]:hover {
     gap: 120vh;
     align-items: center;
     padding-left: 50px;
-  } 
+}
 
-  .footergrid article h1{
+.footergrid article h1 {
     text-decoration: none;
     font-weight: bold;
     color: white;
     grid-template-columns: repeat(3, 1fr);
     margin: 0px auto;
     padding-top: 20px;
-  }
+}
 
-  .footergrid section h1{
+.footergrid section h1 {
     text-decoration: none;
     font-weight: bold;
     color: white;
@@ -274,7 +274,7 @@ input[type="submit"]:hover {
     margin: 0px auto;
     font-size: 40px;
     padding-bottom: 90px;
-  }
+}
 
 /* contact*/
 
@@ -391,4 +391,36 @@ button:hover {
     display: flex;
     margin-bottom: 60px;
     margin-top: 60px;
+}
+
+/* about us*/
+
+.about_article {
+    display: flex;
+    padding-right: 30px;
+}
+
+.about_article img {
+    width: 100%;
+}
+
+.about_sec1 {
+    padding: 70px;
+}
+
+.about_sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.about_sec img {
+    width: 60%;
+    max-width: 100%;
+}
+
+.about_sec1 h1 {
+    font-size: 4em;
+    color: #28CDAC;
 }

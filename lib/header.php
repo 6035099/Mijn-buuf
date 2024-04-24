@@ -29,7 +29,7 @@
 
             <nav class="navbar2">
                 <a href="home.php">Home</a>
-                <a href="#">About us</a>
+                <a href="about_us.php">About us</a>
                 <a href="contact.php">Contact</a>
                 <img class="profiel" src="img/home/logo_kleur.png" alt="">
             </nav>

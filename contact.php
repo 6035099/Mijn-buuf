@@ -27,23 +27,13 @@
                     <i class="fa-brands fa-instagram" style="color: #28cdac;"></i>
                     <i class="fa-brands fa-youtube" style="color: #28cdab;"></i>
                 </section>
-                
 
 
-
-                <p><b>E-mailadres:</b></p>
-                <p>MijnBuuf@gmail.com</p>
-
-                <p><b>Telefoonnummer:</b></p>
-                <p>+31 612345749</p>
-
-                <p><b>Waar?:</b></p>
-                <p>Bleiswijkseweg 37E, 2712 PB Zoetermeer</p>
 
             </section>
 
             <section class="Contactin">
-               <img class="img_contact" src="img/contact/contactin.png" alt="" >
+                <img class="img_contact" src="img/contact/contactin.png" alt="">
             </section>
         </article>
 
