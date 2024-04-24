@@ -14,6 +14,6 @@
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="contact.php">Contact</a>
-            <a href="login.php">inloggen</a>
+            <a href="login.php">Inloggen</a>
         </nav>
     </header>
