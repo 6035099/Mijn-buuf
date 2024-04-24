@@ -5,14 +5,29 @@
         <article class="info">
             <section class="contact-gegevens">
                 <h1>Contactgegevens</h1>
-                <p>E-mailadres:</p>
-                <p>MijnBuuf@gmail.com</p>
 
-                <p>Telefoonnummer:</p>
-                <p>+31 612345749</p>
+                <section class="contact_in">
+                    <p class="contact_up">E-mailadres</p>
+                    <p>MijnBuuf@gmail.com</p>
+                </section>
 
-                <p>Waar?: </p>
-                <p>Bleiswijkseweg 37E, 2712 PB Zoetermeer</p>
+                <section class="contact_in">
+                    <p class="contact_up">Telefoonnummer</p>
+                    <p>+31 612345749</p>
+                </section>
+
+                <section class="contact_in">
+                    <p class="contact_up">Waar? </p>
+                    <p>Bleiswijkseweg 37E, 2712 PB Zoetermeer</p>
+                </section>
+
+                <section>
+                    <i class="fa-brands fa-facebook" style="color: #28cdac;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #28cdac;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #28cdac;"></i>
+                </section>
+
+
             </section>
 
             <section class="Contactin">
