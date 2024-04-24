@@ -5,13 +5,13 @@
         <article class="info">
             <section class="contact-gegevens">
                 <h1>Contactgegevens</h1>
-                <p>E-mailadres:</p>
+                <p><b>E-mailadres:</b></p>
                 <p>MijnBuuf@gmail.com</p>
 
-                <p>Telefoonnummer:</p>
+                <p><b>Telefoonnummer:</b></p>
                 <p>+31 612345749</p>
 
-                <p>Waar?: </p>
+                <p><b>Waar?:</b></p>
                 <p>Bleiswijkseweg 37E, 2712 PB Zoetermeer</p>
             </section>
 
