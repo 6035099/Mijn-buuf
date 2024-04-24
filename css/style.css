@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: whitesmoke;
+    background: #ffffff;
     list-style: none;
     font-family: 'Lato', sans-serif;
 }
@@ -222,10 +222,11 @@ input[type="submit"] {
     background-color: rgb(130, 130, 195);
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
 
 .gender-container {
     display: flex;
@@ -253,13 +254,45 @@ footer {
 /* contact*/
 
 .contact-gegevens {
-    padding: 20px;
+    margin-left: 100px;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 
 .contact-gegevens h1 {
     color: #28CDAC;
     font-size: 50px;
+    font-weight: 700;
+    font-size: 5em;
+    margin-bottom: 30px;
+
+}
+
+.contact_up {
+    color: #28CDAC;
+    font-weight: bold;
+
+}
+
+.contact_up_under {
+    text-decoration: underline;
+    color: #b2b2b2;
+}
+
+.contact_in {
+    padding-bottom: 15px;
+}
+
+.icons_contact,
+i {
+    margin-top: 15px;
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+.img_contact {
+    width: 800px;
+    position: relative;
 }
 
 .contact-gegevens p {
@@ -273,16 +306,17 @@ footer {
 }
 
 .contact-formulier {
-    border: 1px solid #ccc;
     padding: 20px;
-    border: 1px solid;
     border-radius: 50px;
-    border-color: white;
     background-color: white;
     width: 50%;
     margin-left: 25%;
     padding-right: 3%;
     margin-bottom: 50px;
+    margin-top: 120px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 50px 2px rgba(0, 0, 0, 0.39);
 }
 
 .contact-formulier h1 {
@@ -306,10 +340,12 @@ textarea {
     width: 100%;
     padding: 8px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
+    border-radius: 4px;
+    border: 1px solid #CCC;
+    background: rgba(255, 255, 255, 0.89);
 }
 
-button {
+.verzend_contact {
     background-color: #28CDAC;
     color: white;
     padding: 10px 20px;
@@ -325,12 +361,9 @@ button:hover {
     background-color: #3ae2c1;
 }
 
-.Contactin img {
-    width: 1000px;
-    height: auto;
-}
 
 .info {
     display: flex;
-    flex-direction: row;
+    margin-bottom: 60px;
+    margin-top: 60px;
 }
