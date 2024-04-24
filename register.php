@@ -5,11 +5,11 @@
 <form action="connect.php" method="Post">
     <div>
         <label for="firstName">First Name</label>
-        <input type="text" class="form-control" id="firstName" name="firstName" />
+        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Hans"/>
     </div>
     <div>
         <label for="lastName">Last Name</label>
-        <input type="text" class="form-control" id="lastName" name="lastName" />
+        <input type="text" class="form-control" id="lastName" name="lastName" placeholder="emmerik"/>
     </div>
         <label for="gender">Gender</label>
     <div class="gender-container">
@@ -30,15 +30,15 @@
     </div>
     <div>
         <label for="email">Email</label>
-        <input type="text" class="form-control" id="email" name="email" />
+        <input type="text" class="form-control" id="email" name="email" placeholder="info@gmail.com"/>
     </div>
     <div>
         <label for="password">Password</label>
-        <input type="password" class="form-control" id="password" name="password" />
+        <input type="password" class="form-control" id="password" name="password" placeholder="123456"/>
     </div>
     <div>
         <label for="number">Phone Number</label>
-        <input type="number" class="form-control" id="number" name="number" />
+        <input type="number" class="form-control" id="number" name="number" placeholder="+31 6836464"/>
     </div>
         <input type="submit" class="btn btn-primary" />
     </section>
