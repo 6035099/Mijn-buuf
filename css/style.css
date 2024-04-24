@@ -246,10 +246,35 @@ input[type="submit"]:hover {
 }
 
 /* Footer */
-footer {
-    height: 5vh;
-    background-color: #f4f4f4;
-}
+.footergrid {
+    min-height: 10vh;
+    background-color: #28CDAC;
+    display: grid;
+    grid-template-columns: auto auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 120vh;
+    align-items: center;
+    padding-left: 50px;
+  } 
+
+  .footergrid article h1{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px auto;
+    padding-top: 20px;
+  }
+
+  .footergrid section h1{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px auto;
+    font-size: 40px;
+    padding-bottom: 90px;
+  }
 
 /* contact*/
 
