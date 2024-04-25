@@ -31,10 +31,10 @@
 
             <nav class="navbar2">
                 <a href="home.php">Home</a>
-                <a href="#">About us</a>
+                <a href="about_us.php">Over Ons</a>
                 <a href="contact.php">Contact</a>
                 <a href="login.php">Inloggen</a>
-                <img class="profiel" src="img/home/logo_kleur.png" alt="">
+                <a href="login.php"><img class="profiel" src="img/home/logo_kleur.png" href="login.php" alt=""></a>
             </nav>
 
         </header>

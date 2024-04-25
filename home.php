@@ -7,7 +7,7 @@
 
       <article class="container">
 
-        <p class="text">Make mom happy.</p>
+        <p class="text">Maak mama blij.</p>
 
       </article>
 
@@ -25,7 +25,7 @@
           <p class="Number">1</p>
         </section>
 
-        <p class="name">klick</p>
+        <p class="name">klik</p>
 
         <section class="img_container">
 
@@ -42,7 +42,7 @@
             <p class="Number">1</p>
           </section>
 
-          <p class="name">klick</p>
+          <p class="name">klik</p>
 
           <section class="img_container">
 
@@ -59,7 +59,7 @@
             <p class="Number">1</p>
           </section>
 
-          <p class="name">klick</p>
+          <p class="name">klik</p>
 
           <section class="img_container">
 

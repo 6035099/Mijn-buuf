@@ -186,6 +186,8 @@ header {
 
 .log-kop {
     text-align: center;
+    color: #28CDAC;
+    font-size: 59.417px;
 }
 
 /* Formulier */
@@ -193,9 +195,11 @@ header {
     display: flex;
     flex-direction: column;
     background-color: white;
-    padding: 20px;
+    padding: 40px;
+    width: 300px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
 
 /* Labels */
@@ -219,7 +223,7 @@ label {
 /* Knop */
 input[type="submit"] {
     padding: 10px 20px;
-    background-color: rgb(130, 130, 195);
+    background-color:#28CDAC;
     color: white;
     border: none;
     border-radius: 4px;
@@ -234,17 +238,45 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: rgb(100, 100, 165);
+    background-color: white;
+    color: #28CDAC;
+    border: #28CDAC solid 2px;
 }
 
 /* Dit is de inlog pagina */
 
 .inlog-container {
-    display: grid;
+    display: flex;
     place-items: center;
-    height: 75vh;
+    height: 100vh;
 }
 
+
+.login_img {
+    width: 51em;
+}
+
+.Login_cont {
+    padding: 3vh;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 0px 100px 2px rgba(0, 0, 0, 0.39);
+    width: 500px;
+    height: 500px;
+}
+
+.Login_cont h1 {
+    color: #28CDAC;
+    font-size: 59.417px;
+    margin: 0;
+}
+
+.inlog-container p {
+    margin-bottom: 30px;
+}
+.inlog-container a {
+    color: #28CDAC;
+}
 /* Footer */
 .footergrid {
     min-height: 10vh;
@@ -255,18 +287,18 @@ input[type="submit"]:hover {
     gap: 120vh;
     align-items: center;
     padding-left: 50px;
-  } 
+}
 
-  .footergrid article h1{
+.footergrid article h1 {
     text-decoration: none;
     font-weight: bold;
     color: white;
     grid-template-columns: repeat(3, 1fr);
     margin: 0px auto;
     padding-top: 20px;
-  }
+}
 
-  .footergrid section h1{
+.footergrid section h1 {
     text-decoration: none;
     font-weight: bold;
     color: white;
@@ -274,7 +306,7 @@ input[type="submit"]:hover {
     margin: 0px auto;
     font-size: 40px;
     padding-bottom: 90px;
-  }
+}
 
 /* contact*/
 
@@ -391,4 +423,36 @@ button:hover {
     display: flex;
     margin-bottom: 60px;
     margin-top: 60px;
+}
+
+/* about us*/
+
+.about_article {
+    display: flex;
+    padding-right: 30px;
+}
+
+.about_article img {
+    width: 100%;
+}
+
+.about_sec1 {
+    padding: 70px;
+}
+
+.about_sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.about_sec img {
+    width: 60%;
+    max-width: 100%;
+}
+
+.about_sec1 h1 {
+    font-size: 4em;
+    color: #28CDAC;
 }
