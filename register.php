@@ -4,28 +4,28 @@
     <section class="bom">
 <form action="connect.php" method="Post">
     <div>
-        <label for="firstName">First Name</label>
+        <label for="firstName">Voornaam</label>
         <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Hans"/>
     </div>
     <div>
-        <label for="lastName">Last Name</label>
+        <label for="lastName">Achternaam</label>
         <input type="text" class="form-control" id="lastName" name="lastName" placeholder="emmerik"/>
     </div>
-        <label for="gender">Gender</label>
+        <label for="gender">Geslacht</label>
     <div class="gender-container">
         <label for="male" class="radio-inline">
             <input type="radio" name="gender" value="m" id="male" />
-            Male
+            Man
         </label>
 
         <label for="female" class="radio-inline">
             <input type="radio" name="gender" value="f" id="female" />
-            Female
+            Vrouw
         </label>
 
         <label for="others" class="radio-inline">
             <input type="radio" name="gender" value="o" id="others" />
-            Others
+            Anders
         </label>
     </div>
     <div>
@@ -33,11 +33,11 @@
         <input type="text" class="form-control" id="email" name="email" placeholder="info@gmail.com"/>
     </div>
     <div>
-        <label for="password">Password</label>
+        <label for="password">Wachtwoord</label>
         <input type="password" class="form-control" id="password" name="password" placeholder="123456"/>
     </div>
     <div>
-        <label for="number">Phone Number</label>
+        <label for="number">Telefoonnummer</label>
         <input type="number" class="form-control" id="number" name="number" placeholder="+31 6836464"/>
     </div>
         <input type="submit" class="btn btn-primary" />
