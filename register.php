@@ -40,6 +40,10 @@
         <label for="number">Phone Number</label>
         <input type="number" class="form-control" id="number" name="number" />
     </div>
+    <div>
+        <label for="datumVanVandaag">Datum van vandaag</label>
+        <input type="date" class="form-control" id="datumVanVandaag" name="datumVanVandaag" />
+    </div>
         <input type="submit" class="btn btn-primary" />
     </section>
 </form>

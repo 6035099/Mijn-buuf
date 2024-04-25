@@ -65,6 +65,8 @@ nav {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    padding: 5em;
 }
 
 /* Labels */
@@ -94,6 +96,7 @@ input[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    width: 625px;
 }
 
 .gender-container {

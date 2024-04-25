@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $_SESSION['email'] = $email;
         header('Location: form.php');
     } else {
-        echo "Login failed";
+        echo "Login failed registreer hier <a href='register.php'>Registeren</a>.";
     }
     $check = mysqli_fetch_array($result);
     
