@@ -28,7 +28,7 @@ include "lib/header.php";
             echo "";
         }
         ?>
-        <p>Heeft u geen Account?<a href='register.php'> Registreer je</a></p>
+        <p>Heeft u geen Account?<br><a href='register.php'>Registreer je</a></p>
         <form action="login.php" method="POST">
             <label for="username">Email Address</label>
             <input type="text" id="email" name="email" placeholder="info@gmail.com"><br><br>
