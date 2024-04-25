@@ -5,15 +5,17 @@
         <article class="about_article">
 
             <section class="about_sec1">
-                <h1>About us</h1>
-                <p>We’re making a beter life
-                    for all mother in the Netherlands.for all mother in the Netherlands.for all mother in the Netherlands.for all mother in the Netherlands.for all mother in the Netherlands.for all mother in the Netherlands.</p>
-                    <img src="img/about_us/groep_foto.png" alt="">
+                <h1>Over Ons</h1>
+                <p>
+                    Ik zie dat de zin "We’re making a better life for all mothers in the Netherlands" meerdere keren herhaald is. Laten we die omzetten naar het Nederlands:
+
+                    We werken aan een beter leven voor alle moeders in Nederland.</p>
+                <img src="img/about_us/groep_foto.png" alt="">
             </section>
 
             <section class="about_sec1">
                 <img src="img/about_us/foto_vrouw.png" alt="">
-                for all mother in the Netherlands.for all mother in the Netherlands.for all mother in the Netherlands.for all mother in the Netherlands.for all mother in the Netherlands.</p>
+                We werken aan een beter leven voor alle moeders in Nederland. (We are working on a better life for all mothers in the Netherlands.)</p>
 
 
 
