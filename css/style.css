@@ -47,7 +47,7 @@ img {
     background: none;
 }
 
-header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,6 +67,8 @@ header {
 
 .container {
     display: inline-block;
+    padding: 0;
+    margin: 0;
 }
 
 .text {
@@ -86,7 +88,7 @@ header {
 
 .container_moving {
     text-align: right;
-    margin: 6em;
+    margin-right: 6em;
 }
 
 
@@ -107,13 +109,12 @@ header {
 .columns {
     background-image: url('img/udraw_Shared_goals_re_jvqd-removebg-preview\ 1.png');
     background-size: 500px;
-    /* Hiermee wordt de afbeelding schaalt zodat deze de gehele container bedekt */
     background-repeat: no-repeat;
 
     display: flex;
     flex-wrap: row wrap;
     justify-content: flex-end;
-    margin-right: 6em;
+    margin-right: 3em;
 }
 
 .column {
@@ -223,7 +224,7 @@ label {
 /* Knop */
 input[type="submit"] {
     padding: 10px 20px;
-    background-color:#28CDAC;
+    background-color: #28CDAC;
     color: white;
     border: none;
     border-radius: 4px;
@@ -274,9 +275,11 @@ input[type="submit"]:hover {
 .inlog-container p {
     margin-bottom: 30px;
 }
+
 .inlog-container a {
     color: #28CDAC;
 }
+
 /* Footer */
 .footergrid {
     min-height: 10vh;
@@ -312,7 +315,6 @@ input[type="submit"]:hover {
 
 .contact-gegevens {
     margin-left: 100px;
-    margin-top: 40px;
     margin-bottom: 20px;
 }
 
@@ -422,7 +424,6 @@ button:hover {
 .info {
     display: flex;
     margin-bottom: 60px;
-    margin-top: 60px;
 }
 
 /* about us*/
@@ -456,3 +457,119 @@ button:hover {
     font-size: 4em;
     color: #28CDAC;
 }
+
+/*profiel_home*/
+
+.logo-name-kluer {
+    color: #ffffff;
+}
+
+.logo-name {
+    text-decoration: none;
+}
+
+.profiel_home_body {
+    display: flex;
+    padding: 20px;
+    height: 100vh;
+}
+
+.left-section {
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 4px;
+    background-color: #28CDAC;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    transition: all 0.3s ease;
+}
+
+.left-section .logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.left-section .logo img {
+    width: 38px;
+    height: 38px;
+}
+
+.left-section .logo a {
+    font-weight: 500;
+    color: #464646;
+}
+
+.left-section .sidebar {
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.left-section .sidebar .item,
+.left-section .sign-out {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+
+.left-section .sidebar .item i,
+.left-section .sign-out i {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 12px;
+    transition: all 0.4s ease;
+}
+
+.left-section .sidebar .item h3,
+.left-section .sign-out h3 {
+    font-weight: 500;
+    font-size: 14px;
+    transition: all 0.4s ease;
+}
+
+.left-section .sidebar :hover {
+    background: rgba(76, 219, 190, 0.664);
+    border-radius: 4px;
+    transition: all 0.7s ease;
+}
+
+.profiel_home_home {
+    margin-left: 400px;
+    width: 919px;
+    height: 604px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 92.5px 0px rgba(0, 0, 0, 0.20);
+}
+
+.sign-out {
+    border-radius: 4px;
+    background: #FE6153;
+}
+
+
+
+@keyframes fade-in {
+    from {
+       opacity: 0;
+       /* Start with 0 opacity */
+    }
+    to {
+       opacity: 1;
+       /* transition to full opacity */
+    }
+ }
+ h1 {
+    animation: fade-in 3s;
+ }

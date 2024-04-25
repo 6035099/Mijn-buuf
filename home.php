@@ -1,76 +1,77 @@
 <?php include "lib/header.php" ?>
 
 <main>
-    <div class="cursor"></div>
+  <div class="cursor"></div>
 
-    <section class="container_moving">
+  <section class="container_moving">
 
-      <article class="container">
+    <article class="container">
 
-        <p class="text">Make mom happy.</p>
+      <p class="text">Make mom happy.</p>
 
-      </article>
+    </article>
+
+  </section>
+
+
+  <section class="columns">
+
+    <section>
+      <img class="img_home" src="img/home/Main_img.png" alt="">
+    </section>
+
+    <section class="column">
+      <section class="test">
+        <p class="Number">1</p>
+      </section>
+
+      <p class="name">klick</p>
+
+      <section class="img_container">
+
+        <img class="img_container_img" src="img/home/Uitleg_1.png" alt="">
+
+      </section>
 
     </section>
 
-
     <section class="columns">
 
-      <section>
-        <img class="img_home" src="img/home/Main_img.png" alt="">
+      <section class="column">
+        <section class="test">
+          <p class="Number">2</p>
+        </section>
+
+        <p class="name">Fill in
+        </p>
+
+        <section class="img_container">
+
+          <img class="img_container_img" src="img/home/uitleg_2.png" alt="">
+
+        </section>
+
+
+
       </section>
 
       <section class="column">
         <section class="test">
-          <p class="Number">1</p>
+          <p class="Number">3</p>
         </section>
 
-        <p class="name">klick</p>
+        <p class="name">Login</p>
 
         <section class="img_container">
 
-          <img class="img_container_img" src="img/home/Uitleg_1.png" alt="">
+          <img class="img_container_img" src="img/home/Uitleg_3.png" alt="">
 
         </section>
+
+
 
       </section>
 
-      <section class="columns">
+</main>
 
-        <section class="column">
-          <section class="test">
-            <p class="Number">1</p>
-          </section>
-
-          <p class="name">klick</p>
-
-          <section class="img_container">
-
-            <img class="img_container_img" src="img/home/Uitleg_1.png" alt="">
-
-          </section>
-
-
-
-        </section>
-
-        <section class="column">
-          <section class="test">
-            <p class="Number">1</p>
-          </section>
-
-          <p class="name">klick</p>
-
-          <section class="img_container">
-
-            <img class="img_container_img" src="img/home/Uitleg_1.png" alt="">
-
-          </section>
-
-
-
-        </section>
-
-  </main>
-
-  <?php include "lib/footer.php" ?>
+<?php include "lib/footer.php" ?>
