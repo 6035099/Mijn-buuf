@@ -38,8 +38,8 @@
                 <label for="email"><b>E-mailadres:</b></label>
                 <input type="email" id="email" name="email" required>
 
-                <label for="Tele"><b>Telefoonnummer:</b></label>
-                <input type="Tele" id="Tele" name="Tele" required>
+                <label for="number"><b>Telefoonnummer</b></label>
+                <input type="number" id="number" name="number" />
 
                 <label for="onderwerp"><b>Onderwerp:</b></label>
                 <input type="text" id="onderwerp" name="onderwerp" required>
