@@ -3,7 +3,7 @@ include "lib/header.php";
 ?>
 <main class="inlog-container">
 <form action="login.php" method="POST">
-    <label for="username">email</label>
+    <label for="username">Email</label>
     <input type="text" id="email" name="email" required><br><br>
     <label for="password">Password:</label>
     <input type="password" id="password" name="password" required><br><br>
@@ -12,7 +12,6 @@ include "lib/header.php";
 
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Process the login form
     $email = $_POST['email'];
     $password = $_POST['password'];
     $conn = new mysqli('localhost', 'root', '', 'Mijn_Buuf');

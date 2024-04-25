@@ -1,3 +1,4 @@
+
     <!DOCTYPE html>
     <html lang="en">
 
@@ -31,6 +32,8 @@
                 <a href="home.php">Home</a>
                 <a href="about_us.php">About us</a>
                 <a href="contact.php">Contact</a>
+                <a href="contact.php">Contact</a>
+                <a href="login.php">Inloggen</a>
                 <img class="profiel" src="img/home/logo_kleur.png" alt="">
             </nav>
 
