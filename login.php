@@ -28,11 +28,11 @@ include "lib/header.php";
             echo "";
         }
         ?>
-        <p>Doesn’t have an account yet?<a href='register.php'>Sign Up</a></p>
+        <p>Heeft u geen Account?<a href='register.php'> Registreer je</a></p>
         <form action="login.php" method="POST">
             <label for="username">Email Address</label>
             <input type="text" id="email" name="email" placeholder="info@gmail.com"><br><br>
-            <label for="password">Password:</label>
+            <label for="password">Wachtwoord:</label>
             <input type="password" id="password" name="password" placeholder="********" required><br><br>
             <input type="submit" value="Login">
         </form>
