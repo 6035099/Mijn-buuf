@@ -22,7 +22,7 @@ include "lib/header.php";
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = $_POST['email'];
     $password = $_POST['password'];
-    $conn = new mysqli('localhost', 'root', '', 'Mijn_Buuf');
+    $conn = new PDO('localhost', 'root', '', 'Mijn_Buuf');
     $sql= "SELECT * FROM registration WHERE email = '$email' AND password = '$password' ";
     $result = mysqli_query($conn,$sql);
     $aantal = mysqli_num_rows($result);
@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
    
 
 } else {
-    echo "Wrong username or password.<br>Of registreer hier <a href='register.php'>Registeren</a>.";
+    echo "Wrong username or password. Please try again.";
 }
 ?>
 </main>
